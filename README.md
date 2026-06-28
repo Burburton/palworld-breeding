@@ -55,10 +55,10 @@ npm run build
 
 ## GitHub Pages 部署
 
-1. 在 GitHub 上创建仓库 `palworld-breeding`（或修改 `vite.config.ts` 中的 `base`，使其匹配仓库名）。
-2. 推送 `main` 分支。
+1. 仓库已配置为 `palworld-breeding`（`vite.config.ts` 的 `base` 与仓库名一致）。如果改名请同步修改。
+2. 推送 `main` 分支：`git push -u origin main`。
 3. 仓库 `Settings → Pages → Build and deployment → Source` 选择 `GitHub Actions`。
-4. 推送后 `Actions` 自动构建并部署。
+4. 推送后 `Actions` 自动执行 `validate:data → lint → test → build → deploy`。
 5. 部署地址：`https://<user>.github.io/palworld-breeding/`
 
 详细部署配置位于 `.github/workflows/deploy.yml`。
