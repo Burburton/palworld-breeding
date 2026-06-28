@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "key": "lamball",
+    "number": "001",
+    "nameZh": "棉棉羊",
+    "nameEn": "Lamball"
+  },
+  {
+    "id": 2,
+    "key": "cattiva",
+    "number": "002",
+    "nameZh": "捣蛋猫",
+    "nameEn": "Cattiva"
+  },
+  {
+    "id": 3,
+    "key": "chikipi",
+    "number": "003",
+    "nameZh": "皮皮鸡",
+    "nameEn": "Chikipi"
+  },
+  {
+    "id": 100,
+    "key": "anubis",
+    "number": "100",
+    "nameZh": "阿努比斯",
+    "nameEn": "Anubis"
+  },
+  {
+    "id": 101,
+    "key": "penking",
+    "number": "101",
+    "nameZh": "企丸王",
+    "nameEn": "Penking"
+  },
+  {
+    "id": 102,
+    "key": "bushi",
+    "number": "102",
+    "nameZh": "武士王",
+    "nameEn": "Bushi"
+  }
+]
