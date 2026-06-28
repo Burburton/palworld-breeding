@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -42,6 +44,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+        with:
+          enablement: true
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -51,3 +59,5 @@ jobs:
           force_orphan: true
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
+          enable_pages: true
+          pages_branch: gh-pages
